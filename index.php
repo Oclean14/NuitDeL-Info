@@ -10,15 +10,28 @@ function connexion()
     }
     return $bdd;
 }
-$req = $bdd->prepare('SELECT nom, prix FROM jeux_video WHERE possesseur = ?  AND prix <= ? ORDER BY prix');
-
-$req->execute(array($_GET['possesseur'], $_GET['prix_max']));
-
 
     function insertMessage ($message, $userId, $topicId)
     {
         $req = connexion()->prepare('INSERT INTO message VALUES (NULL,?,?,?,?)');
         $datetime = date("Y-m-d H:i:s");
         $req->execute(array($datetime,$message,$userId,$topicId));
+        return $req;
     }
 
+    function getMessage ($topicId)
+    {
+        $req = connexion()->prepare('SELECT * FROM message WHERE topicId = ?');
+        $req->execute(array($topicId));
+        return $req;
+    }
+
+    function insertUser($password,$name,$surname,$dateofbirth,$gender,$adress,$town,$country,$mail,$telnumber)
+    {
+        $req = connexion()->prepare('INSERT INTO message VALUES (NULL,?,?,?,?,?,?,?,?,?,?)');
+        $req->execute(array($password,$name,$surname,$dateofbirth,$gender,$adress,$town,$country,$mail,$telnumber));
+
+
+    }
+
+    function 
