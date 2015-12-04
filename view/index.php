@@ -63,7 +63,7 @@
 					<div class="row">
 						<section class="6u 12u(2)">
 							<div class="box post">
-								<a href="#" class="image left"><img src="images/pic01.jpg" alt="" /></a>
+								<a href="#" class="image left"><img src="images/1420650003456.jpg" alt="" /></a>
 								<div class="inner">
 									<h3>Attaque Terroriste à Paris</h3>
 									<p>Paris a été la cible de plusieurs attaques terroristes ?!</p>
@@ -72,7 +72,7 @@
 						</section>
 						<section class="6u 12u(2)">
 							<div class="box post">
-								<a href="#" class="image left"><img src="images/pic02.jpg" alt="" /></a>
+								<a href="#" class="image left"><img src="images/03-17-2015Syria_Family.jpg" alt="" /></a>
 								<div class="inner">
 									<h3>Réfugiés Syriens</h3>
 									<p>Le Flux migratoire vers l'Europe continue à augmenter</p>
@@ -83,7 +83,7 @@
 					<div class="row">
 						<section class="6u 12u(2)">
 							<div class="box post">
-								<a href="#" class="image left"><img src="images/pic03.jpg" alt="" /></a>
+								<a href="#" class="image left"><img src="images/03-17-2015Syria_Family.jpg" alt="" /></a>
 								<div class="inner">
 									<h3>Bombardement en Syrie</h3>
 									<p>La population restée en Syrie se retrouve entre les bombardements de la coalition et ceux de l'EI</p>
@@ -92,7 +92,7 @@
 						</section>
 						<section class="6u 12u(2)">
 							<div class="box post">
-								<a href="#" class="image left"><img src="images/pic04.jpg" alt="" /></a>
+								<a href="#" class="image left"><img src="images/mali_0.jpg" alt="" /></a>
 								<div class="inner">
 									<h3>Mali</h3>
 									<p>La Poulation Malienne a besoin de votr aide suite aux attentats</p>
