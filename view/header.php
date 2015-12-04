@@ -1,5 +1,5 @@
 <head>
-	<title>Arcana by HTML5 UP</title>
+	<title>Safety host</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -20,12 +20,12 @@
 			<div id="header">
 						
 				<!-- Logo -->
-					<h1><a href="index.php" id="logo">SAFETY HOST <em> the website where you can help anyone anywhere</em></a></h1>
+					<h1><a href="index.php" id="logo"><img src="images/logo.png" alt="Safety_host" width="200" height="100"> <em> the website where you can help anyone anywhere</em></a></h1>
 				
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li class="current"><a href="index.php">Accueil</a></li>
+							<li class="current"><a href="index.php">Home</a></li>
 							<li>
 								<a href="">Services</a>
 								<ul>
