@@ -29,7 +29,7 @@
 			<div id="header">
 						
 				<!-- Logo -->
-					<h1><a href="index.html" id="logo">SAFETY HOST <em> the website where you can help anyone anywhere</em></a></h1>
+					<h1><a href="index.php" id="logo">SAFETY HOST <em> the website where you can help anyone anywhere</em></a></h1>
 				
 				<!-- Nav -->
 					<nav id="nav">
@@ -65,7 +65,7 @@
 							</li>
 							<li><a href="forum.html">Forum</a></li>
 							<li><a href="jeu.html">Jeu</a></li>
-							<li><a href="connexion.html">Connexion</a></li>
+							<li><a href="form_connect.php" class="button">Connexion</a></li>
 						</ul>
 					</nav>
 

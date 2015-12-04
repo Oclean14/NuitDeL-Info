@@ -20,7 +20,7 @@
 			<div id="header">
 						
 				<!-- Logo -->
-					<h1><a href="index.html" id="logo">SAFETY HOST <em> the website where you can help anyone anywhere</em></a></h1>
+					<h1><a href="index.php" id="logo">SAFETY HOST <em> the website where you can help anyone anywhere</em></a></h1>
 				
 				<!-- Nav -->
 					<nav id="nav">
@@ -29,31 +29,36 @@
 							<li>
 								<a href="">Services</a>
 								<ul>
-									<a href="#">Logement</a>
-									<ul>
-											<li><a href="#">Offre de logements</a></li>
-											<li><a href="#">Demande de logements</a></li>
-										</ul>
-									<li><a href="#">Repas</a></li>
-									<li><a href="#">Eti</a></li>
 									<li>
-										<a href="">Submenu</a>
+										<a href="">Logement</a>
 										<ul>
-											<li><a href="#">Lorem dolor</a></li>
-											<li><a href="#">Phasellus magna</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li><a href="#">Etiam nisl</a></li>
-											<li><a href="#">Veroeros feugiat</a></li>
+											<li><a href="offre_log.html">Offre de Logements</a></li>
+											<li><a href="demande_log.html">Demande de Logements</a></li>
 										</ul>
 									</li>
-									<li><a href="#">Veroeros feugiat</a></li>
+									<li><a href="#">Repas</a></li>
+										<li>
+										<a href="">Transport</a>
+										<ul>
+											<li><a href="#">Voiture</a></li>
+											<li><a href="#">Bus/Car</a></li>
+											<li><a href="#">Camionette</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Santé</a>
+									<ul>
+											<li><a href="#">Médicaments</a></li>
+											<li><a href="#">Matériel hygiénique</a></li>
+											<li><a href="#">Premiers Soins</a></li>
+										</ul>
+									</li>
 								</ul>
 							</li>
-							<li><a href="left-sidebar.html">Left Sidebar</a></li>
-							<li><a href="right-sidebar.html">Right Sidebar</a></li>
-							<li><a href="two-sidebar.html">Two Sidebar</a></li>
-							<li><a href="no-sidebar.html">No Sidebar</a></li>
+							<li><a href="forum.html">Forum</a></li>
+							<li><a href="jeu.html">Jeu</a></li>
+							<li><a href="form_connect.php" class="button">Connexion</a></li>
 						</ul>
 					</nav>
+
 			</div>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->

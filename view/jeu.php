@@ -22,54 +22,11 @@
 			<link rel="stylesheet" href="css/style-wide.css" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<?php include("header.php");?> 
 	</head>
 	<body>
 
-		<!-- Header -->
-			<div id="header">
-						
-				<!-- Logo -->
-					<h1><a href="index.php" id="logo">SAFETY HOST <em> the website where you can help anyone anywhere</em></a></h1>
-				
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li class="current"><a href="index.html">Home</a></li>
-							<li>
-								<a href="">Services</a>
-								<ul>
-									<li>
-										<a href="">Logement</a>
-										<ul>
-											<li><a href="offre_log.html">Offre de Logements</a></li>
-											<li><a href="demande_log.html">Demande de Logements</a></li>
-										</ul>
-									</li>
-									<li><a href="#">Repas</a></li>
-										<li>
-										<a href="">Transport</a>
-										<ul>
-											<li><a href="#">Voiture</a></li>
-											<li><a href="#">Bus/Car</a></li>
-											<li><a href="#">Camionette</a></li>
-										</ul>
-									</li>
-									<li><a href="#">Santé</a>
-									<ul>
-											<li><a href="#">Médicaments</a></li>
-											<li><a href="#">Matériel hygiénique</a></li>
-											<li><a href="#">Premiers Soins</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="forum.html">Forum</a></li>
-							<li><a href="jeu.html">Jeu</a></li>
-							<li><a href="connexion.html">Connexion</a></li>
-						</ul>
-					</nav>
-
-			</div>
+	
 			
 		<!-- Main -->
 			<section class="wrapper style1">
