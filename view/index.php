@@ -7,22 +7,8 @@
 <html>
 	<head>
 		<title>SAFETY HOST</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.dropotron.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-wide.css" />
-		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-		<?php include("header.php");?> 
+		
+		<?php include("./header.php");?> 
 	</head>
 	<body>
 
@@ -43,22 +29,22 @@
 					<div class="row 200%">
 						<section class="4u 12u(2)">
 							<div class="box highlight">
-								<i class="icon major fa-paper-plane"></i>
-								<h3>1ère Valeur</h3>
+								<i class="fa fa-globe"></i>
+								<h3>1ère VALEUR</h3>
 								<p>Respecter l'humanité</p>
 							</div>
 						</section>
 						<section class="4u 12u(2)">
 							<div class="box highlight">
 								<i class="icon major fa-pencil"></i>
-								<h3>2ème Valeur</h3>
+								<h3>2ème VALEUR</h3>
 								<p>Faire valoir le droit des réfufiés</p>
 							</div>
 						</section>
 						<section class="4u 12u(2)">
 							<div class="box highlight">
 								<i class="icon major fa-wrench"></i>
-								<h3>3ème Valeur</h3>
+								<h3>3ème VALEUR</h3>
 								<p>Nous donnons priorité à l'éducation de enfants</p>
 							</div>
 						</section>

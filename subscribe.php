@@ -6,7 +6,8 @@
 
     <body><div class= "container"> 
     	<h1>Formulaire d'inscription</h1>
-        <form method="post">        
+        <form method="post">
+        <div class="6u 12u(3)">        
             <table>              
             	<td><label for="pass2"><strong>Nom</strong></label></td>
             	<td><input type="password" name="pass2" id="pass2"/></td>
@@ -52,6 +53,7 @@
             	<td><input type="password" name="pass2" id="pass2"/></td>
             </tr>    
             </table>
+        </div>
         	<input type="submit" name="register" value="S'inscrire"/>
         </form>
     </div></body>
