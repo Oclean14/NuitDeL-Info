@@ -42,7 +42,7 @@
 					</div>
 				</div>
 			</section>
-			
+
 			<section class="wrapper style2">
 				<div class="container">
 					<header class="major">
@@ -164,7 +164,6 @@
 					</div>
 				</div>
 
-				<!-- Icons -->
 					<ul class="icons">
 						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
@@ -173,7 +172,6 @@
 						<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
 					</ul>
 
-				<!-- Copyright -->
 					<div class="copyright">
 						<ul class="menu">
 							<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>

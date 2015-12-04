@@ -1,7 +1,24 @@
-<?php
-session_start();
-include("header.php");
-echo '<p><i>Vous êtes ici</i> : <a href="./index.php">Index du forum</a> --> Connexion';
+<?php session_start();
 
-session_destroy();
+	include("controleur.php");
+
+	$bdd = bdd->prepare('SELECT * FROM users');
+
+	$pseudo = $_POST['pseudo'];
+	$password = $_POST['password'];
+
+	if(isset($_POST))
+	{
+		if ((isset($pseudo)) && (isset($password)))
+		{
+			$_SESSION['co']=1;
+			echo "connexion réussie";
+		}
+		else
+		{
+			$_SESSION['co']=0;
+			echo "connexion échoué";
+		}
+	}
+	else "Pas de $_POST"
 ?>

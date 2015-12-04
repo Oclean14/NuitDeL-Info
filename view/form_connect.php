@@ -1,12 +1,11 @@
 <html><div class = "container">
 	<?php include("header.php");?> 
-	<form method="post" action="connexion.php">
+	<form method="post" action="connect.php">
 
     <fieldset>
 
     <h1>Connexion</h1>
 
-    <p>
     	<label for="pseudo">Pseudo :</label><input name="pseudo" type="text" id="pseudo" /><br />
     	<label for="password">Mot de Passe :</label><input type="password" name="password" id="password" />
     </p>

@@ -11,15 +11,10 @@
 		<?php include("./header.php");?> 
 	</head>
 	<body>
-
-		<!-- Header -->
-			
-			
-		<!-- Banner -->
 			<section id="banner">
 				<header>
-					<h2>SAFETY HOST <em> If you want more</em></h2>
-					<a href="#" class="button">Learn More about us</a>
+					<h2>Qui sont les 10 meilleurs donneurs ?</h2>
+					<a href="#" class="button">Découvrir</a>
 				</header>
 			</section>
 
@@ -29,7 +24,7 @@
 					<div class="row 200%">
 						<section class="4u 12u(2)">
 							<div class="box highlight">
-								<i class="fa fa-globe"></i>
+								<i class="icon major fa-paper-plane"></i>
 								<h3>1ère VALEUR</h3>
 								<p>Respecter l'humanité</p>
 							</div>
