@@ -1,15 +1,15 @@
 <?php
-function connexion()
-{
-    try
+    function connexion()
     {
-        $bdd = new PDO('mysql:host=localhost;dbname=nuit;charset=utf8', 'root', 'root');
+        try
+        {
+            $bdd = new PDO('mysql:host=localhost;dbname=nuit;charset=utf8', 'root', 'root');
+        }
+        catch (Exception $e) {
+            die('Erreur : ' . $e->getMessage());
+        }
+        return $bdd;
     }
-    catch (Exception $e) {
-        die('Erreur : ' . $e->getMessage());
-    }
-    return $bdd;
-}
 
     function insertMessage ($message, $userId, $topicId)
     {
@@ -30,8 +30,6 @@ function connexion()
     {
         $req = connexion()->prepare('INSERT INTO message VALUES (NULL,?,?,?,?,?,?,?,?,?,?)');
         $req->execute(array($password,$name,$surname,$dateofbirth,$gender,$adress,$town,$country,$mail,$telnumber));
-
-
     }
 
     function 
