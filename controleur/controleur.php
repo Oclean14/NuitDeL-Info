@@ -31,9 +31,9 @@
         return $req;
     }
 
-    function insertUser($password,$name,$surname,$dateofbirth,$gender,$adress,$town,$country,$mail,$telnumber)
+    function insertUser($password,$name,$surname,$dateofbirth,$gender,$adress,$town,$country,$mail,$telnumber,$pseudo)
     {
-        $req = connexion()->prepare("INSERT INTO users ( password, name, surname, datebirth, gender, adress, town, country, mail, telnumber) VALUES ( :password, :name, :surname, :datebirth, :gender, :adress, :town, :country, :mail, :telnumber)");
+        $req = connexion()->prepare("INSERT INTO users ( password, name, surname, datebirth, gender, adress, town, country, mail, telnumber,pseudo) VALUES ( :password, :name, :surname, :datebirth, :gender, :adress, :town, :country, :mail, :telnumber,:pseudo)");
         $req->bindParam(':password',$password);
         $req->bindParam(':name',$name);
         $req->bindParam(':surname',$surname);
@@ -44,6 +44,7 @@
         $req->bindParam(':country',$country);
         $req->bindParam(':mail',$mail);
         $req->bindParam(':telnumber',$telnumber);
+        $req->bindParam(':pseudo',$pseudo);
         $req->execute();
     }
 
@@ -62,7 +63,7 @@
 
 //if($_POST['nom'] && $_POST['prenom'] && $_POST['date'] && $_POST['sex'] && $_POST['address'] && $_POST['ville'] && $_POST['pays'] && $_POST['pseudo'] && $_POST['pass'] && $_POST['mail'])
 
-    insertUser($_POST['pass'],$_POST['nom'],$_POST['prenom'],$_POST['date'],$_POST['sex'] ,$_POST['address'], $_POST['ville'] ,$_POST['pays'] ,$_POST['mail'],$_POST['number']);
+    insertUser($_POST['pass'],$_POST['nom'],$_POST['prenom'],$_POST['date'],$_POST['sex'] ,$_POST['address'], $_POST['ville'] ,$_POST['pays'] ,$_POST['mail'],$_POST['number'],$_POST['pseudo']);
     header('Location: ../view/index.php');
 
 

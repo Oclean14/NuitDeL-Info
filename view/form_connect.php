@@ -1,6 +1,6 @@
 <html><div class = "container">
 	<?php include("header.php");?> 
-	<form method="post" action="connect.php">
+	<form method="post" action="../controleur/connect.php">
 
     <fieldset>
 
