@@ -1,4 +1,7 @@
 <?php
+
+class bdd()
+{
     function connexion()
     {
         try
@@ -32,4 +35,12 @@
         $req->execute(array($password,$name,$surname,$dateofbirth,$gender,$adress,$town,$country,$mail,$telnumber));
     }
 
-    function 
+    function removeUser ($message, $userId, $topicId)
+    {
+        $req = connexion()->prepare('INSERT INTO message VALUES (NULL,?,?,?,?)');
+        $datetime = date("Y-m-d H:i:s");
+        $req->execute(array($datetime,$message,$userId,$topicId));
+        return $req;
+    }
+}
+?>
