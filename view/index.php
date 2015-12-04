@@ -74,8 +74,8 @@
 		<!-- Banner -->
 			<section id="banner">
 				<header>
-					<h2>Arcana: <em>A responsive site template freebie by <a href="http://html5up.net">HTML5 UP</a></em></h2>
-					<a href="#" class="button">Learn More</a>
+					<h2>SAFETY HOST <em> If you want more</em></h2>
+					<a href="#" class="button">Learn More about us</a>
 				</header>
 			</section>
 
@@ -87,21 +87,21 @@
 							<div class="box highlight">
 								<i class="icon major fa-paper-plane"></i>
 								<h3>This Is Important</h3>
-								<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
+								<p>Conditions dans lesquelles vivent les populations pauvres vivent</p>
 							</div>
 						</section>
 						<section class="4u 12u(2)">
 							<div class="box highlight">
 								<i class="icon major fa-pencil"></i>
 								<h3>Also Important</h3>
-								<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
+								<p>Les Conditions à respecter</p>
 							</div>
 						</section>
 						<section class="4u 12u(2)">
 							<div class="box highlight">
 								<i class="icon major fa-wrench"></i>
 								<h3>Probably Important</h3>
-								<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
+								<p>D'où ils viennent</p>
 							</div>
 						</section>
 					</div>
