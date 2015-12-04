@@ -6,7 +6,7 @@ class bdd()
     {
         try
         {
-            $bdd = new PDO('mysql:host=localhost;dbname=nuit;charset=utf8', 'root', 'root');
+            $bdd = new PDO('mysql:host=localhost;dbname=nuit;charset=utf8', 'root', '');
         }
         catch (Exception $e) {
             die('Erreur : ' . $e->getMessage());
@@ -35,12 +35,16 @@ class bdd()
         $req->execute(array($password,$name,$surname,$dateofbirth,$gender,$adress,$town,$country,$mail,$telnumber));
     }
 
-    function removeUser ($message, $userId, $topicId)
+    function removeUser ($userId)
     {
-        $req = connexion()->prepare('INSERT INTO message VALUES (NULL,?,?,?,?)');
-        $datetime = date("Y-m-d H:i:s");
-        $req->execute(array($datetime,$message,$userId,$topicId));
-        return $req;
+        $req = connexion()->prepare('DELETE * FROM users WHERE userId = ?');
+        $req->execute(array($userId));
+    }
+
+    function removeMessage ($idmessage)
+    {
+        $req = connexion()->prepare('DELETE * FROM message WHERE idmessage = ?');
+        $req->execute(array($idmessage));
     }
 }
 ?>
