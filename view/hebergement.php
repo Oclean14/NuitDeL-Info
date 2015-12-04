@@ -26,6 +26,25 @@
 									<p>All content, all the time.</p>
 
 
+									<div class="row">
+									<div class="col-xs-2"> Photo User 2</div>
+									<div class="col-xs-offset-3 col-xs-6"> Bienvenue chez moi ! ma porte est ouverte pour vous :
+									8 Rue de Laporte, Paris</div>
+									</div>
+
+									<div class="row">
+									<div class="col-xs-2"> Photo User 2</div>
+									<div class="col-xs-offset-3 col-xs-6"> Ma maison est comme la vôtre, n'hésitez pas à venir chez moi
+									15 Allée Valery Larbaud, SARCELLES</div>
+									</div>
+
+									<div class="row">
+									<div class="col-xs-2"> Photo User 3</div>
+									<div class="col-xs-offset-3 col-xs-6"> VENEZ VITE
+									2 Boulevard de Voltaire</div>
+									</div>
+
+
 								</header>
 							
 							</article>
