@@ -25,15 +25,15 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li class="current"><a href="index.html">Home</a></li>
+							<li class="current"><a href="index.php">Home</a></li>
 							<li>
 								<a href="">Services</a>
 								<ul>
 									<li>
 										<a href="">Logement</a>
 										<ul>
-											<li><a href="offre_log.html">Offre de Logements</a></li>
-											<li><a href="demande_log.html">Demande de Logements</a></li>
+											<li><a href="offre_log.php">Offre de Logements</a></li>
+											<li><a href="demande_log.php">Demande de Logements</a></li>
 										</ul>
 									</li>
 									<li><a href="#">Repas</a></li>
@@ -54,8 +54,8 @@
 									</li>
 								</ul>
 							</li>
-							<li><a href="forum.html">Forum</a></li>
-							<li><a href="jeu.html">Jeu</a></li>
+							<li><a href="forum.php">Forum</a></li>
+							<li><a href="jeu.php">Jeu</a></li>
 							<li><a href="form_connect.php" class="button">Connexion</a></li>
 						</ul>
 					</nav>

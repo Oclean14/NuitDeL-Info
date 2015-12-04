@@ -15,7 +15,7 @@
 
     <p><input type="submit" value="Connexion" /></p></form>
 
-    <a href="subscribe.php">Pas encore inscrit ?</a>
+    <a href="form_subscribe.php">Pas encore inscrit ?</a>
     </div>
 
     </body>
