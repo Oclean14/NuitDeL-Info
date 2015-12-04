@@ -5,9 +5,9 @@ var http = require('http').createServer(app);
 var io = require('socket.io')(http);
 var mysql = require('mysql');
 var connection = mysql.createConnection({
-	host : 'http://172.16.230.247',
+	host : 'localhost',
 	user: 'root',
-	password: 'root',
+	password: '',
 	database: 'nuit'
 });
 connection.connect(function(err){
@@ -32,20 +32,6 @@ app.get('/home' , function(req, res){
 	res.sendFile(__dirname + '/www/index.html')
 });
 
-app.get('/user/:id', function(req, res){
-	var playerID = req.params.id;
-	console.log("Getting user id " + playerID);
-	connection.query('SELECT * from player where playerID='+playerID, function(err, rows, fields) {
-	connection.end();
-	  if (!err){
-	  	res.send(rows);
-	  }
-	  else{
-	  	console.log('Error while performing Query.');
-	  }
-	  });
-
-});
 io.on('connection', function(socket){
 	console.log('New client connection');
 });
