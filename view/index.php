@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Arcana by HTML5 UP</title>
+		<title>SAFETY HOST</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -38,30 +38,34 @@
 							<li>
 								<a href="">Services</a>
 								<ul>
-									<a href="#">Logement</a>
-									<ul>
-											<li><a href="#">Offre de logements</a></li>
-											<li><a href="#">Demande de logements</a></li>
-										</ul>
-									<li><a href="#">Repas</a></li>
-									<li><a href="#">Eti</a></li>
 									<li>
-										<a href="">Submenu</a>
+										<a href="">Logement</a>
 										<ul>
-											<li><a href="#">Lorem dolor</a></li>
-											<li><a href="#">Phasellus magna</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li><a href="#">Etiam nisl</a></li>
-											<li><a href="#">Veroeros feugiat</a></li>
+											<li><a href="offre_log.html">Offre de Logements</a></li>
+											<li><a href="demande_log.html">Demande de Logements</a></li>
 										</ul>
 									</li>
-									<li><a href="#">Veroeros feugiat</a></li>
+									<li><a href="#">Repas</a></li>
+										<li>
+										<a href="">Transport</a>
+										<ul>
+											<li><a href="#">Voiture</a></li>
+											<li><a href="#">Bus/Car</a></li>
+											<li><a href="#">Camionette</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Santé</a>
+									<ul>
+											<li><a href="#">Médicaments</a></li>
+											<li><a href="#">Matériel hygiénique</a></li>
+											<li><a href="#">Premiers Soins</a></li>
+										</ul>
+									</li>
 								</ul>
 							</li>
-							<li><a href="left-sidebar.html">Left Sidebar</a></li>
-							<li><a href="right-sidebar.html">Right Sidebar</a></li>
-							<li><a href="two-sidebar.html">Two Sidebar</a></li>
-							<li><a href="no-sidebar.html">No Sidebar</a></li>
+							<li><a href="forum.html">Forum</a></li>
+							<li><a href="jeu.html">Jeu</a></li>
+							<li><a href="connexion.html">Connexion</a></li>
 						</ul>
 					</nav>
 
@@ -246,40 +250,3 @@
 
 	</body>
 </html>
-
-<?php
-function connexion()
-{
-    try
-    {
-        $bdd = new PDO('mysql:host=localhost;dbname=nuit;charset=utf8', 'root', 'root');
-    }
-    catch (Exception $e) {
-        die('Erreur : ' . $e->getMessage());
-    }
-    return $bdd;
-}
-
-    function insertMessage ($message, $userId, $topicId)
-    {
-        $req = connexion()->prepare('INSERT INTO message VALUES (NULL,?,?,?,?)');
-        $datetime = date("Y-m-d H:i:s");
-        $req->execute(array($datetime,$message,$userId,$topicId));
-        return $req;
-    }
-
-    function getMessage ($topicId)
-    {
-        $req = connexion()->prepare('SELECT * FROM message WHERE topicId = ?');
-        $req->execute(array($topicId));
-        return $req;
-    }
-
-    function insertUser($password,$name,$surname,$dateofbirth,$gender,$adress,$town,$country,$mail,$telnumber)
-    {
-        $req = connexion()->prepare('INSERT INTO message VALUES (NULL,?,?,?,?,?,?,?,?,?,?)');
-        $req->execute(array($password,$name,$surname,$dateofbirth,$gender,$adress,$town,$country,$mail,$telnumber));
-
-
-    }
-?>
