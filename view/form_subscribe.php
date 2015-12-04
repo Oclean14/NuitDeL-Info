@@ -14,7 +14,11 @@
                 <tr>            
             	   <td><label for="login"><strong>Prenom</strong></label></td>
             	   <td><input type="text" name="prenom" id="prenom"/></td>            
-                </tr>           
+                </tr>
+                    <tr>
+                        <td><label for="pass2"><strong>Pseudo</strong></label></td>
+                        <td><input type="text" name="pseudo" id="tel"/></td>
+                    </tr>
                 <tr>            
                 	<td><label for="pass"><strong>Date de naissance</strong></label></td>
                 	<td><input type="date" name="date" id="pass"/></td>
@@ -55,6 +59,7 @@
                         <td><label for="pass2"><strong>Numéro</strong></label></td>
                         <td><input type="tel" name="number" id="tel"/></td>
                     </tr>
+
                 </table>
             	<input type="submit" name="register" value="S'inscrire"/>
             </form>
