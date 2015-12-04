@@ -6,7 +6,7 @@
     <div class="container"
         <body>
     	   <h1>Formulaire d'inscription</h1>
-            <form method="post">        
+            <form method="post" action="../controleur/controleur.php">
                 <table>              
             	   <td><label for="nom"><strong>Nom</strong></label></td>
             	   <td><input type="text" name="nom" id="nom"/></td>
@@ -17,15 +17,15 @@
                 </tr>           
                 <tr>            
                 	<td><label for="pass"><strong>Date de naissance</strong></label></td>
-                	<td><input type="date" name="pass" id="pass"/></td>            
+                	<td><input type="date" name="date" id="pass"/></td>
                 </tr>            
                 <tr>         
                 	<td><label for="pass2"><strong>Sexe</strong></label></td>
-                	<td><input type="password" name="pass2" id="pass2"/></td>
+                	<td><input type="text" name="sex" id="pass2"/></td>
                 </tr>
                   <tr>            
                 	<td><label for="login"><strong>Adresse postale</strong></label></td>
-                	<td><input type="text" name="login" id="login"/></td>            
+                	<td><input type="text" name="address" id="login"/></td>
                 </tr>           
                 <tr>            
                 	<td><label for="pass"><strong>Ville</strong></label></td>
@@ -50,7 +50,11 @@
                 <tr>         
                 	<td><label for="pass2"><strong>Mail</strong></label></td>
                 	<td><input type="mail" name="mail" id="mail"/></td>
-                </tr>    
+                </tr>
+                    <tr>
+                        <td><label for="pass2"><strong>Numéro</strong></label></td>
+                        <td><input type="tel" name="number" id="tel"/></td>
+                    </tr>
                 </table>
             	<input type="submit" name="register" value="S'inscrire"/>
             </form>

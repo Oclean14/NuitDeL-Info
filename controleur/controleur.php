@@ -1,20 +1,13 @@
 <?php
 
-class bdd
-{
-	var $host;
-	var $db;
-	var $username;
-	var $pass;
-	function __construct($host, $db, $username,$pass){
-		$this->host = $host;
-		$this->db = $db;
-		$this->username = $username;
-		$this->pass = $pass;
-		
+
+
+
+    function connexion()
+    {
 		try
         {
-            $bdd = new PDO('mysql:host='.$host.';dbname='.$db';charset=utf8', $username, $pass);
+            $bdd = new PDO('mysql:host=localhost;dbname=nuit;charset=utf8', 'root', 'root');
         }
         catch (Exception $e) {
             die('Erreur : ' . $e->getMessage());
@@ -40,8 +33,18 @@ class bdd
 
     function insertUser($password,$name,$surname,$dateofbirth,$gender,$adress,$town,$country,$mail,$telnumber)
     {
-        $req = connexion()->prepare('INSERT INTO message VALUES (NULL,?,?,?,?,?,?,?,?,?,?)');
-        $req->execute(array($password,$name,$surname,$dateofbirth,$gender,$adress,$town,$country,$mail,$telnumber));
+        $req = connexion()->prepare("INSERT INTO users ( password, name, surname, datebirth, gender, adress, town, country, mail, telnumber) VALUES ( :password, :name, :surname, :datebirth, :gender, :adress, :town, :country, :mail, :telnumber)");
+        $req->bindParam(':password',$password);
+        $req->bindParam(':name',$name);
+        $req->bindParam(':surname',$surname);
+        $req->bindParam(':datebirth',$dateofbirth);
+        $req->bindParam(':gender',$gender);
+        $req->bindParam(':adress',$adress);
+        $req->bindParam(':town',$town);
+        $req->bindParam(':country',$country);
+        $req->bindParam(':mail',$mail);
+        $req->bindParam(':telnumber',$telnumber);
+        $req->execute();
     }
 
     function removeUser ($userId)
@@ -55,5 +58,14 @@ class bdd
         $req = connexion()->prepare('DELETE * FROM message WHERE idmessage = ?');
         $req->execute(array($idmessage));
     }
-}
+
+
+//if($_POST['nom'] && $_POST['prenom'] && $_POST['date'] && $_POST['sex'] && $_POST['address'] && $_POST['ville'] && $_POST['pays'] && $_POST['pseudo'] && $_POST['pass'] && $_POST['mail'])
+
+    insertUser($_POST['pass'],$_POST['nom'],$_POST['prenom'],$_POST['date'],$_POST['sex'] ,$_POST['address'], $_POST['ville'] ,$_POST['pays'] ,$_POST['mail'],$_POST['number']);
+    header('Location: ../view/index.php');
+
+
+
+
 ?>
