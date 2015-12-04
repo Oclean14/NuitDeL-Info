@@ -1,10 +1,7 @@
 <html>
-
     <head>   
         <title>Création d'un formulaire d'inscription en HTML</title>
-        <link href="style.css" rel="stylesheet">
-    	<!-- Bootstrap -->
-    	<link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">    
+        <?php include("../header.php");?>
     </head>    
 
     <body><div class= "container"> 
