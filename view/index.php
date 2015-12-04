@@ -8,7 +8,7 @@
 	<head>
 		<title>SAFETY HOST</title>
 		
-		<?php include("./header.php");?> 
+		<?php include("header.php");?> 
 	</head>
 	<body>
 			<section id="banner">
