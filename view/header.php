@@ -30,11 +30,6 @@
 								<a href="">Services</a>
 								<ul>
 									<li>
-										<a href="">Logement</a>
-										<ul>
-											<li><a href="offre_log.php">Offre de Logements</a></li>
-											<li><a href="demande_log.php">Demande de Logements</a></li>
-										</ul>
 									</li>
 									<li><a href="#">Repas</a></li>
 										<li>
