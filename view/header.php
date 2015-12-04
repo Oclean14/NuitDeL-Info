@@ -51,6 +51,7 @@
 							</li>
 							<li><a href="forum.php">Forum</a></li>
 							<li><a href="../jeu/laby.html" >Jeu</a></li>
+							<li><a href="../messagerie/index.html">Messagerie</a></li>
 							<li><a href="form_connect.php" class="button">Connexion</a></li>
 						</ul>
 					</nav>
