@@ -1,18 +1,27 @@
 <?php
 
-class bdd()
+class bdd
 {
-    function connexion()
-    {
-        try
+	var $host;
+	var $db;
+	var $username;
+	var $pass;
+	function __construct($host, $db, $username,$pass){
+		$this->host = $host;
+		$this->db = $db;
+		$this->username = $username;
+		$this->pass = $pass;
+		
+		try
         {
-            $bdd = new PDO('mysql:host=localhost;dbname=nuit;charset=utf8', 'root', '');
+            $bdd = new PDO('mysql:host='.$host.';dbname='.$db';charset=utf8', $username, $pass);
         }
         catch (Exception $e) {
             die('Erreur : ' . $e->getMessage());
         }
         return $bdd;
-    }
+	}
+
 
     function insertMessage ($message, $userId, $topicId)
     {
