@@ -153,7 +153,7 @@
 							</ul>
 						</section>
 						<section class="6u 12u(2)">
-							<h3>Get In Touch</h3>
+							<h3>Contactez nous</h3>
 							<form>
 								<div class="row 50%">
 									<div class="6u 12u(3)">
@@ -171,7 +171,7 @@
 								<div class="row 50%">
 									<div class="12u">
 										<ul class="actions">
-											<li><input type="submit" class="button alt" value="Send Message" /></li>
+											<li><input type="submit" class="button alt" value="Envoyer" /></li>
 										</ul>
 									</div>
 								</div>
