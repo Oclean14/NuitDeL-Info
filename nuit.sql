@@ -40,7 +40,6 @@ CREATE TABLE IF NOT EXISTS `message` (
 --
 -- Structure de la table `sujet`
 --
-
 CREATE TABLE IF NOT EXISTS `sujet` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `creationdate` date NOT NULL,
