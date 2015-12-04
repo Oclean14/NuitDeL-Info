@@ -29,22 +29,22 @@
 					<div class="row 200%">
 						<section class="4u 12u(2)">
 							<div class="box highlight">
-								<i class="icon major fa-paper-plane"></i>
-								<h3>1ère Valeur</h3>
+								<i class="fa fa-globe"></i>
+								<h3>1ère VALEUR</h3>
 								<p>Respecter l'humanité</p>
 							</div>
 						</section>
 						<section class="4u 12u(2)">
 							<div class="box highlight">
 								<i class="icon major fa-pencil"></i>
-								<h3>2ème Valeur</h3>
+								<h3>2ème VALEUR</h3>
 								<p>Faire valoir le droit des réfufiés</p>
 							</div>
 						</section>
 						<section class="4u 12u(2)">
 							<div class="box highlight">
 								<i class="icon major fa-wrench"></i>
-								<h3>3ème Valeur</h3>
+								<h3>3ème VALEUR</h3>
 								<p>Nous donnons priorité à l'éducation de enfants</p>
 							</div>
 						</section>

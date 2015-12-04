@@ -1,21 +1,12 @@
 <!DOCTYPE HTML>
-<!--
-	Arcana by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<title>SAFETY HOST</title>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		
 		<?php include("view/header.php");?> 
 	</head>
-	<body>
-
-		<!-- Header -->
-			
-			
-		<!-- Banner -->
+	<body>	
 			<section id="banner">
 				<header>
 					<h2>SAFETY HOST <em> If you want more</em></h2>
@@ -51,8 +42,7 @@
 					</div>
 				</div>
 			</section>
-
-		<!-- Gigantic Heading -->
+			
 			<section class="wrapper style2">
 				<div class="container">
 					<header class="major">
